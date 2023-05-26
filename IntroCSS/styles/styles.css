@@ -1,0 +1,134 @@
+/*Por etiqueta*/
+/*h1{
+    color: rebeccapurple; 
+    font-size: xx-large;
+}
+/*Por clase . */
+/*.botoncl1
+{
+    color: aquamarine;
+    background-color: black
+}
+/*Por id # */
+/*#botonid2
+{
+    color: coral;
+    background-color: black
+}
+/*Por id # */
+/*#botonid3
+{
+    color: yellowgreen;
+    background-color: black;
+}
+/*Por clase . */
+/*.botoncl4
+{
+    color: violet;    
+    background-color: black;
+}
+*/
+ 
+/* h1{
+    color: antiquewhite;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: rgb(10, 100, 70);
+    border: 9px;
+    border-style:solid;
+    border-color: violet;
+
+}
+p
+{
+    
+    margin-left: 20px;
+    border: 5px;
+    border-style: dashed;
+    border-color: springgreen;
+}  */
+
+
+/* body
+{
+    background-color:cadetblue;
+    background-image: url(/assets/imgs/subaru.jpg);
+    background-repeat:repeat;
+    background-size: 25%;
+    background-attachment:fixed;
+    background-position:initial; 
+} */
+
+/* h1
+{
+ 
+    border-width: 10%;
+    border-radius: 19%;
+    border-style:dotted;
+    border-color: violet blue red goldenrod;
+}
+
+p
+{
+    border: 9px;
+    border-style:groove;
+    border-color: violet;
+} */
+
+/* h1
+{
+    color: aqua;
+    text-align: end;
+    text-decoration-line:overline ;
+    text-decoration-style: double;
+}
+
+#lorem
+{
+    text-align: center;
+    color: plum;
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+
+}
+
+#lorem2
+{
+    text-align: justify;
+    color: teal;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+
+} */
+
+/* a{
+color: aqua;
+text-decoration: none;
+} */
+
+/* h1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lorem
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+} */
+
+/* #lorem
+{
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#lorem2
+{
+    font-family: 'Covered By Your Grace', cursive;
+} */
+
+
