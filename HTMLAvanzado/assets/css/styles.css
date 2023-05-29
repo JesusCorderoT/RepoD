@@ -1,0 +1,87 @@
+/* .table
+{ 
+    border-style: solid;
+    border: red 5px solid;
+}
+
+tbody 
+{
+    border: blue 5px solid;
+}
+
+tr {
+  border: green 5px solid;
+} */
+
+table, th, td 
+{
+ border: 3px solid rgb(26, 29, 204) ;
+ border-collapse: collapse;
+ color: rgba(68, 65, 5, 0.956);
+ border-style: dotted;
+
+}
+
+/* p
+{
+ color: cadetblue;
+} */
+
+table
+{
+    height: 15%;
+    width:50%;
+    text-align: center;
+ 
+ 
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+form
+{
+
+    border:2px solid rgb(204, 0, 255); ;
+    width: 50%;
+    height: 85%;
+    margin: 10em;
+}
+
+  form input 
+  {
+
+    border:2px solid rgb(0, 187, 255); ;
+    width: 55%;
+    height: 30px;
+    margin: 0.7rem;
+  }
+
+#b1
+  {
+    
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 255, 110);
+    cursor: pointer;
+
+  }
+
+  #b2
+  {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(239, 131, 65);
+    cursor: pointer;
+  }
+
+  label
+  {
+font-family: cursive;
+color: slategray;
+  }
+

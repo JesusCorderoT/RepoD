@@ -1,8 +1,9 @@
 <html>
-<body>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
     
 
-<!-- <table class="table">
+<table class="table">
    <caption>Nombres</caption>
     <thead class="thead" >
         <tr class="tr">
@@ -49,7 +50,9 @@
             <td>Totodile</td>
         </tr>
     </tbody>
-</table> -->
+</table>
+<br>
+<br>
 
 <table class="table">
     <caption>Horario escolar</caption>
@@ -91,80 +94,135 @@
     </tbody>
 </table>
 
+<!---->
+
+<hr>
+
+<a href="">Parrafo 3</a>
+<br>
+<a href="html/login.html">Inicia sesion</a>
+<br>
+<a href="html/login.html#p4">Mira el parrafo 4</a>
 
 
+<p id="p1" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi id recusandae vel sapiente architecto odio possimus? Minima nobis cupiditate mollitia vero, debitis beatae nam commodi, rerum quidem pariatur provident iste.</p>
 
+<a href=""></a>
+<p id="p1" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi id recusandae vel sapiente architecto odio possimus? Minima nobis cupiditate mollitia vero, debitis beatae nam commodi, rerum quidem pariatur provident iste.</p>
 
+<a href=""></a>
+<p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi id recusandae vel sapiente architecto odio possimus? Minima nobis cupiditate mollitia vero, debitis beatae nam commodi, rerum quidem pariatur provident iste.</p>
 
+<br>
 
+<!-- <p>Formulario</p>
 
-
-<style>
-/* .table
-{ 
-    border-style: solid;
-    border: red 5px solid;
-}
-
-tbody 
-{
-    border: blue 5px solid;
-}
-
-tr {
-  border: green 5px solid;
-} */
-
-table, th, td 
-{
- border: 3px solid rgb(91, 26, 204) ;
- border-collapse: collapse;
- color: rgba(143, 139, 31, 0.956);
-
-}
-
-p
-{
- color: cadetblue;
-}
-
-table
-{
-    height: 15%;
-    width:90%;
-    text-align: center;
- 
+<form action="">
+<label for="user">User name:</label>
+<input type="text" id="user" name="user">
+</form>
  
 
-}
+<form action="">
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
 
-a
-{
-    text-decoration: none;
-}
+    <br><br>
+    <label for="edad">Age:</label>
+    <input type="number" name="edad" id="edad" min="5" max="100">
+
+    <br><br>
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email">
+
+    <br><br>
+    <label for="textarea">Coments:</label>
+    <textarea name="textarea" id="textarea"></textarea>
+
+    <br><br>
+<label for="date"></label>
+<input type="date" name="date" id="date">
+
+<br><br>
+<input type="radio" class="Java" name="ra" id="Java" value="Java" checked>
+<label for="Java" class="Java">Java</label><br>
+
+<input type="radio" class="JavaScript" name="ra" id="JavaScript" value="JavaScript" checked>
+<label for="JavaScript" class="JavaScript">JavaScript</label><br>
+
+<input type="radio" class="Phyton" name="ra" id="Phyton" value="Phyton" checked>
+<label for="Phyton" class="Phyton">Phyton</label> -->
+
+<!-- <p>Elige tu lenguaje de programación fav</p>
+        <input type="radio" id="java" name="lenguaje_fav" value="java">
+        <label for="java">JAVA</label>
+        <br>
+        <input type="radio" id="javascript" name="lenguaje_fav" value="javascript">
+        <label for="javascript">JAVASCRIPT</label>
+        <br>
+        <input type="radio" id="python" name="lenguaje_fav" value="python">
+        <label for="python"></label>
+
+ -->
+
+<!-- <p>Selecciona las opciones</p>
+
+<input type="checkbox" name="op1" id="op1" value="Valor 1">
+<label for="op1">Opcion 1 </label>
+<br>
+
+<input type="checkbox" name="op2" id="op2" value="Valor 2">
+<label for="op2">Opcion 2 </label>
+<br>
 
 
-</style>
+<input type="checkbox" name="op3" id="op3" value="Valor 3">
+<label for="op3">Opcion 3 </label>
+<br>
+<br>
+
+<label for="archivo">Add a file</label>
+<input type="file" name="archivo" id="archivo">
+<br>
+<br>
+
+<label for="vol">Volumen entre </label>
+<input type="range" id="vol" name="vol" min="0" max="100">
+<br>
+<br>
+</form> -->
 
 
+<form action="/action_page.php" method="get" target="_blank">
 
 
+    <label for="user">Nombre:</label>
+    <input placeholder="Jesus" type="text" id="user" name="user" required><br><br>
+
+    <label for="user">Apellido:</label>
+    <input placeholder="Cordero" type="text" id="user" name="user" required><br><br>
+
+    <label for="user">NickName:</label>
+    <input placeholder="ElCuaks " type="text" id="user" name="user" required><br><br>
+
+    <label for="email">E-mail</label>
+    <input placeholder="e-mail" type="email" name="email" id="email" required><br><br>
+
+    <label for="password">Contraseña:</label>
+    <input placeholder="password" type="password" name="password" id="password" required><br><br>
+
+    <label for="edad">Edad:</label>
+    <input placeholder="18" type="number" name="edad" id="edad" min="18" max="100" required><br><br>
+
+    <div class="botones">
+    <button id="b1" type="submit">Registrarse</button>
+    <button id="b2" type="reset">Limpiar</button>
+    </div>
+
+</form>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<button type="submit" class="btn btn-primary">Submit</button>
 
 
 
