@@ -1,0 +1,23 @@
+====== NPM
+
+Node.js permite la ejecución de JS de forma directa en la computadora (servidor) y no solo en el navegador. Se basa en el manejo de funcionalidades asíncronas de JS y se ejecuta sobre el V8 engine.
+
+NPM es un administrador de paquetes para JS, más de 800k paquetes, desarrollo de programas open-source, disponible para código privado, se ejecuta desde una CLI, es gratis, similar a github, repositorio de proyectos node de código abierto y linea de compando para interactuar con el repositorio.
+
+Componentes de NPM
+    -Sitio Web: Perfiles, gestión y búsqueda de paquetes, interfaz web, etc.
+
+    -CLI: Ambiente de línea de comandos en una terminal y principal forma de interactividad con NPM
+
+    -Registro: Base de Datos pública de Software JavaScript y meta-información que lo rodea
+
+Adapta e incorpora paquetes de código a aplicaciones.
+Descargar herramientas independientes.
+Compartir código con cualquier usuario de NPM, en cualquier lugar.
+Restringir el código a desarrolladores específicos.
+Crear organizaciones para coordinar el mantenimiento de paquetes, codificación, etc.
+Administrar versiones del código.
+Actualizar.
+Networking.
+
+NPM: Node Package Manager

@@ -1,0 +1,16 @@
+{
+  "name": "@yisusct/npm-parimpar",
+  "version": "1.0.0",
+  "description": "paquete creado para determinar un par o impar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "par",
+    "impar\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "impar"
+  ],
+  "author": "@yisusct",
+  "license": "ISC"
+}

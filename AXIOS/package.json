@@ -1,0 +1,17 @@
+{
+  "name": "@yisusct/rickandmortyapi_axios",
+  "version": "1.0.1",
+  "description": "Consumiendo Api de rick y morti usando axios, practica",
+  "main": "simpleGet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "axios-get": "node simpleGet.js"
+  },
+  
+  "keywords": [],
+  "author": "@yisusct",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
